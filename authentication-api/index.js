@@ -18,3 +18,6 @@ app.use(express.json());
 app.listen(PORT, () => {
   console.log(`Listening on ${PORT}`);
 });
+
+const userRouter = require("./routes/users");
+app.use("/", userRouter);
