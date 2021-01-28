@@ -11,20 +11,24 @@ const Login = ({
 }) => {
   return (
     <div className="Login">
-      <h1 className="login-header">Login</h1>
-      <form className="login-form" onSubmit={handleSubmitLogin}>
-        <label htmlFor="login-email">Email or Username</label>
+      <h1 className="header">Login</h1>
+      <form className="form" onSubmit={handleSubmitLogin}>
+        <label className="form-labels" htmlFor="login-email">
+          Email or Username
+        </label>
         <input
-          className="login-input"
+          className="form-input"
           id="login-email"
           type="text"
           name="value"
           required
           onChange={handleChange}
         />
-        <label htmlFor="login-password">Password</label>
+        <label className="form-labels" htmlFor="login-password">
+          Password
+        </label>
         <input
-          className="login-input"
+          className="form-input"
           id="login-password"
           type="password"
           name="password"
@@ -33,9 +37,15 @@ const Login = ({
         />
         {alertMessage && <Alert alertMessage={alertMessage} />}
 
-        <button type="submit">Submit</button>
+        <button className="form-button" type="submit">
+          Submit
+        </button>
 
-        <Link to="/register" onClick={() => setAlertMessage("")}>
+        <Link
+          className="link-to"
+          to="/register"
+          onClick={() => setAlertMessage("")}
+        >
           Not a member? Sign up here!
         </Link>
       </form>

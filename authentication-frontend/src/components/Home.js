@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Home = ({ user }) => {
   return (
     <div className="Home">
-      <h1>Welcome {user.username}</h1>
+      <h1>Hello {user.username}</h1>
     </div>
   );
 };

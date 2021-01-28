@@ -35,7 +35,7 @@ function App() {
       })
       .catch(() =>
         setAlertMessage(
-          "Either your Email, Username or Password is incorrect, please try again."
+          "Either your email, username or password is incorrect, please try again."
         )
       );
   };
@@ -57,7 +57,7 @@ function App() {
         })
         .catch((error) => console.log(error));
     } else {
-      setAlertMessage("The passwords do not match");
+      setAlertMessage("Your passwords do not match");
     }
   };
   return (

@@ -1,0 +1,56 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $lightPlum;
+  padding: 10%;
+  border-radius: 10px;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: lighter;
+  font-size: 2.4em;
+}
+
+.form-labels {
+  font-family: "Raleway", sans-serif;
+  color: $lightGrey;
+  font-size: 1.1em;
+}
+
+.form-input {
+  width: 95%;
+  margin: 7%;
+  padding: 3%;
+  font-size: 1.1em;
+  font-family: "Raleway", sans-serif;
+  background-color: $lightGrey;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-button {
+  border: none;
+  background-color: $buttonColour;
+  padding: 2% 6% 2% 6%;
+  color: $lightGrey;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  &:hover {
+    background-color: $darkPlum;
+  }
+}
+
+.link-to {
+  text-align: center;
+  margin: 3%;
+  padding: 5%;
+  text-decoration: none;
+  color: $lightGrey;
+  width: 100%;
+}

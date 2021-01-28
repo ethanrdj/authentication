@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Alert = ({ alertMessage }) => {
   return (
     <div className="Alert">
-      <h4>{alertMessage}</h4>
+      <p>{alertMessage}</p>
     </div>
   );
 };
