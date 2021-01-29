@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Renders component 1`] = `
+<DocumentFragment>
+  <div
+    class="Login"
+  >
+    <h1
+      class="header"
+    >
+      Login
+    </h1>
+    <form
+      class="form"
+    >
+      <label
+        class="form-labels"
+        data-testid="username-id"
+        for="login-email"
+      >
+        Email or Username
+      </label>
+      <input
+        class="form-input"
+        id="login-email"
+        name="value"
+        required=""
+        type="text"
+      />
+      <label
+        class="form-labels"
+        data-testid="password-id"
+        for="login-password"
+      >
+        Password
+      </label>
+      <input
+        class="form-input"
+        id="login-password"
+        name="password"
+        required=""
+        type="password"
+      />
+      <div
+        data-testid="alert-id"
+      />
+      <button
+        class="form-button"
+        type="submit"
+      >
+        Submit
+      </button>
+      <a
+        class="link-to"
+        href="/register"
+      >
+        Not a member? Sign up here!
+      </a>
+    </form>
+  </div>
+</DocumentFragment>
+`;

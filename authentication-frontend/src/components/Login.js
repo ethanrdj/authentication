@@ -13,7 +13,11 @@ const Login = ({
     <div className="Login">
       <h1 className="header">Login</h1>
       <form className="form" onSubmit={handleSubmitLogin}>
-        <label className="form-labels" htmlFor="login-email">
+        <label
+          className="form-labels"
+          htmlFor="login-email"
+          data-testid="username-id"
+        >
           Email or Username
         </label>
         <input
@@ -24,7 +28,11 @@ const Login = ({
           required
           onChange={handleChange}
         />
-        <label className="form-labels" htmlFor="login-password">
+        <label
+          className="form-labels"
+          htmlFor="login-password"
+          data-testid="password-id"
+        >
           Password
         </label>
         <input
@@ -54,8 +62,8 @@ const Login = ({
 };
 
 Login.propTypes = {
-  handleChange: PropTypes.func.isRequired,
-  handleSubmitLogin: PropTypes.func.isRequired,
+  handleChange: PropTypes.func,
+  handleSubmitLogin: PropTypes.func,
   alertMessage: PropTypes.string,
   setAlertMessage: PropTypes.func,
 };

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register renders the component 1`] = `
+<DocumentFragment>
+  <div
+    class="Register"
+  >
+    <h1
+      class="header"
+    >
+      Register
+    </h1>
+    <form
+      class="form"
+    >
+      <label
+        class="form-labels"
+        data-testid="reg-email-id"
+        for="register-email"
+      >
+        Email
+      </label>
+      <input
+        class="form-input"
+        id="register-email"
+        name="email"
+        required=""
+        type="email"
+      />
+      <label
+        class="form-labels"
+        data-testid="reg-username-id"
+        for="register-username"
+      >
+        Username
+      </label>
+      <input
+        class="form-input"
+        id="register-username"
+        name="username"
+        required=""
+        type="text"
+      />
+      <label
+        class="form-labels"
+        data-testid="reg-password-id"
+        for="register-password"
+      >
+        Password
+      </label>
+      <input
+        class="form-input"
+        id="register-password"
+        name="password"
+        required=""
+        type="password"
+      />
+      <label
+        class="form-labels"
+        data-testid="reg-confirm-id"
+        for="confirm-password"
+      >
+        Confirm Password
+      </label>
+      <input
+        class="form-input"
+        id="confirm-password"
+        name="confirmPassword"
+        required=""
+        type="password"
+      />
+      <div
+        data-testid="alert-id"
+      />
+      <button
+        class="form-button"
+      >
+        Register and Login
+      </button>
+      <a
+        class="link-to"
+        href="/"
+      >
+        Already have an account? Login here!
+      </a>
+    </form>
+  </div>
+</DocumentFragment>
+`;

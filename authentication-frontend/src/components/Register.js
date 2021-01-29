@@ -13,7 +13,11 @@ const Register = ({
     <div className="Register">
       <h1 className="header">Register</h1>
       <form className="form" onSubmit={handleSubmitRegister}>
-        <label className="form-labels" htmlFor="register-email">
+        <label
+          className="form-labels"
+          htmlFor="register-email"
+          data-testid="reg-email-id"
+        >
           Email
         </label>
         <input
@@ -24,7 +28,11 @@ const Register = ({
           required
           onChange={handleChange}
         />
-        <label className="form-labels" htmlFor="register-username">
+        <label
+          className="form-labels"
+          htmlFor="register-username"
+          data-testid="reg-username-id"
+        >
           Username
         </label>
         <input
@@ -35,7 +43,11 @@ const Register = ({
           required
           onChange={handleChange}
         />
-        <label className="form-labels" htmlFor="register-password">
+        <label
+          className="form-labels"
+          htmlFor="register-password"
+          data-testid="reg-password-id"
+        >
           Password
         </label>
         <input
@@ -46,7 +58,11 @@ const Register = ({
           required
           onChange={handleChange}
         />
-        <label className="form-labels" htmlFor="confirm-password">
+        <label
+          className="form-labels"
+          htmlFor="confirm-password"
+          data-testid="reg-confirm-id"
+        >
           Confirm Password
         </label>
         <input
