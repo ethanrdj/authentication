@@ -12,8 +12,8 @@ You will also see any lint errors in the console.
 
 ## Built using:
 
-React
-React Testing Library
-React Router Dom
-SASS
-axios
+    • React
+    • React Testing Library
+    • React Router Dom
+    • SASS
+    • axios

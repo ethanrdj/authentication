@@ -12,10 +12,11 @@ Run 'npm start' to activate the server which runs on port 5000.
 
 ## Built using:
 
-Express.js
-Node.js
-Mongoose
-MongoDB
-Nodemon
-dotenv
-Bcrypt
+    • Express.js
+    • Node.js
+    • Mongoose
+    • MongoDB
+    • Nodemon
+    • dotenv
+    • Bcrypt
+    •
