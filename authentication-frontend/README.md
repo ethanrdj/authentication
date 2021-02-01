@@ -1,6 +1,6 @@
 # Authentication app
 
-This project allows a user to register an account and login. The login process authenticates the users details details and alerts them if there is an error.
+This project allows a user to register an account and login. The login process authenticates the users details and alerts them if there is an error.
 
 ### `npm start`
 
